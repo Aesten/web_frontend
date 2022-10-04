@@ -1,0 +1,79 @@
+@import "common.scss";
+
+body {
+
+    .dummy-separator {
+        width: 100%;
+        height: 2px;
+        background-color: #c1c1c1;
+    }
+
+    .dummy-separator2 {
+        width: 100%;
+        height: 20px;
+    }
+
+    .content {
+        padding-top: 67px;
+        width: 570px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        background-color: #ffffff;
+
+        h1 {
+            font-size: 32px;
+            font-weight: 400;
+            padding-left: 60px;
+        }
+
+        .login-form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 450px;
+            padding-left: 60px;
+            padding-bottom: 60px;
+            
+            .input-dummy {
+                height: 20px;
+            }
+
+            input[type=text], input[type=email] {
+                font-size: 16px;
+                height: 45px;
+                padding-left: 16px;
+                border: 1px solid #ccc;
+                border-radius: 0px;
+            }
+
+            input[type=text]:focus , input[type=email]:focus{
+                outline-color: green;
+                outline-width: 4px;
+            }
+
+            input[type=email]:invalid {
+                outline-color: red;
+                outline-width: 4px;
+            }
+
+            input[type=submit]{
+                font-size: 14px;
+                color: #ffffff;
+                height: 42px;
+                border-radius: 84px;
+                justify-content: center;
+                background-color:#72ac51;
+                border: none;
+                cursor: pointer;
+            }
+
+            .submit:hover {
+                background-color:#47752d;
+            }
+        }
+
+    }
+
+}

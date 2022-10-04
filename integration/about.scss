@@ -1,0 +1,112 @@
+@import "common.scss";
+
+body {
+
+    .dummy-separator {
+        width: 100%;
+        height: 2px;
+        background-color: #c1c1c1;
+    }
+
+    .dummy-separator2 {
+        width: 100%;
+        height: 20px;
+    }
+
+    .content {
+        width: 1070px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        align-items: flex-start;
+
+        .side-menu {
+            width: 256px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:start;
+
+            .space {
+                height: 1px;
+                background-color:#ebebeb;
+            }
+
+            .side-menu-item {
+                width: 216px;
+                font-weight:600;
+                font-size: 18px;
+                background-color:#ffffff;
+                padding: 20px;
+            }
+
+            .current-area {
+                color: #ffffff;
+                background-color:#72ac51;
+            }
+        }
+
+        .dummy-separator3 {
+            width: 20px;
+            height: auto;
+        }
+
+        .box {
+            width: 794px;
+            height: auto;
+            .section-title {
+                font-size: 36px;
+                color: #565656;
+                padding-left: 20px;
+                font-weight: 400;
+            }
+    
+            .panes-area {
+                background-color: #ffffff;
+                display: flex;
+
+                .pane {
+                    width: 387px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:stretch;
+                    justify-content:space-between;
+
+                    .pane-title {
+                        font-weight:600;
+                        font-size: 20px;
+                        padding-top: 30px;
+                        padding-left: 30px;
+                        padding-bottom: 15px;
+                    }
+    
+                    .pane-text {
+                        font-size: 15px;
+                        padding-left: 30px;
+                        padding-bottom: 30px;
+                        padding-left: 30px;
+                        line-height: 140%;
+                    }
+    
+                    .pane-image {
+                        height: auto;
+                        width: 100%;
+                    }
+                }
+
+                .dummy-separator4 {
+                    width: 20px;
+                    height: auto;
+                    background-color: #ebebeb;
+                }
+            }
+        }
+
+        
+    }
+
+
+}
+
+
